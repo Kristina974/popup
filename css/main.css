@@ -1,0 +1,122 @@
+           
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+h1,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.parts {
+    position: relative;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    vertical-align: top;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-style: bold;
+}
+
+.dribble {
+    background-color: #ea4c89;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.parts-inner {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.logo-dribble,
+.logo-twitter {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 52, 69, .5);
+}
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 670px;
+    height: 1000px;
+    padding-top: 560px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    transition: 5s;
+    transform: translate(-50%, -50%);
+}
+
+.button-close {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+.face-shapes {
+    position: absolute;
+    top: 205px;
+    left: 160px;
+}
+
+.logo-face  {
+    position: absolute;
+    top: 230px;
+    left: 220px;
+}
+
+.popup h1 {
+    font-style: bold;
+}
+
+.popup-message {
+    padding-top: 35px;
+    padding-bottom: 40px;
+    color: #979fae;
+    line-height: 1.5;
+}
+
+.button {
+    padding: 15px 40px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: #fe8502;
+    color: #fff;
+    font-size: 18px;
+}
