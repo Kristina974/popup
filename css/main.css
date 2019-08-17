@@ -55,13 +55,11 @@ p {
 }
 
 .overlay {
-    position: fixed;
+    position: absolute;
     top: 0;
-    left: 0;
     right: 0;
     bottom: 0;
-    margin: 0;
-    padding: 0;
+    left: 0;
     background-color: rgba(35, 52, 69, .5);
 }
 
